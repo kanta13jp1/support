@@ -32,6 +32,9 @@
       #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
       #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
       #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      #sample img {
+        width: 200px;  /* 横幅を200pxに */
+      }
       @media (max-width: 600px) {
         body, #message { margin-top: 0; background: white; box-shadow: none; }
         body { border-top: 16px solid #ffa100; }
@@ -39,12 +42,15 @@
     </style>
   </head>
   <body>
-    <div>
+    <div class="sample">
       <h1>国民民主党アプリサポートページ</h1>
       <h2>国民民主党アプリサポートページへようこそ</h2>
       <p>こちらは国民民主党アプリサポートページです。</p>
       <p>This is the Democratic Party for the People  app support page.</p>
-      <img src="mondaigamen.jpg">
+      <img src="images/mondaigamen.png"
+        alt="問題画面"
+        width="400"
+        height="800">
     </div>
 
     <script type="module">
